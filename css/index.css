@@ -4,9 +4,31 @@ body {
     overflow-x: hidden;
 }
 
-header {
-    width: 100%;
-    position: fixed;
-    z-index: 99;
-    margin-top: 1.25rem;
+.banner {
+    background: linear-gradient(350deg, rgba(0, 13, 255, 1) 9%, rgba(107, 115, 255, 1) 91%);
+    padding-top: 100px;
+    border-bottom-left-radius: 48px;
+    border-bottom-right-radius: 48px;
+    height: 570px;
+    position: relative;
+}
+
+.benefits {
+    border-width: 0 2px 2px 2px;
+    border-style: solid;
+    border-color: #E9EBFF;
+    padding-bottom: 15px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.benefits h2 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 20px 0;
+}
+
+.textColorBlack {
+    color: #272727;
 }
