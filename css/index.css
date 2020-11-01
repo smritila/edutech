@@ -32,3 +32,105 @@ body {
 .textColorBlack {
     color: #272727;
 }
+
+.paddingadjust{
+
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+.lightBorder {
+    border: solid 2px #E9EBFF;
+    border-radius: 12px;
+}
+
+.ncertTopHeading {
+    padding: 20px;
+    border-bottom: solid 2px #E9EBFF;
+}
+
+.ncertSolutionContent {
+    padding: 0px 20px 40px;
+    position: relative;
+
+}
+
+.row {
+
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+
+}
+
+.ncertInnerList {
+
+    
+        border: solid 1px #E9EBFF;
+        border-radius: 5px;
+        overflow: hidden;
+        margin-top: 20px;
+    
+}
+
+.lightPurpleGradientBg {
+    background: linear-gradient(168.88deg, #CE9FFC 0%, #7367F0 100%);
+
+    
+}
+
+.ncertInnerHeading a {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0;
+    position: relative;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-right: 14px;
+    display: block;
+    padding: 15px 24px 15px 10px;
+}
+
+.specialHeading {
+    color: #4148EF;
+    font-weight: 900;
+    font-size: 22px;
+    position: relative;
+}
+
+
+
+
+.lightGreenGradientBg {
+    
+    background: linear-gradient(168.88deg, #8AE6DC 0%, #00B3A0 100%);
+}
+
+.ncertTopHeading {
+    padding: 20px;
+    border-bottom: solid 2px #E9EBFF;
+}
+
+
+.specialHeading {
+    color: #4148EF;
+    font-weight: 900;
+    font-size: 22px;
+    position: relative;
+}
+
+.darkBlueGradientBg {
+   
+    background: linear-gradient(168.12deg, #6B73FF 0%, #000DFF 100%);
+}
+
+
+
+
+
+
+
+
+
