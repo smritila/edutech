@@ -4,6 +4,17 @@ body {
     overflow-x: hidden;
 }
 
+.benefits {
+    display: none;
+    margin: 15px 0;
+}
+
+.benefits .benefitsHeading h2 {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+
 .headerChange {
     background-color: #4148ef;
     margin-top: 0;
@@ -84,13 +95,6 @@ body {
     border-bottom: solid 2px #E9EBFF;
 }
 
-.specialHeading {
-    color: #4148EF;
-    font-weight: 900;
-    font-size: 22px;
-    position: relative;
-}
-
 .darkBlueGradientBg {
     background: linear-gradient(168.12deg, #6B73FF 0%, #000DFF 100%);
 }
@@ -138,11 +142,9 @@ p {
     text-decoration: none;
 }
 
- .footer-bottom {
+.footer-bottom {
     background-color: #fff;
 }
-
-
 
 .footer-bottom-item {
     padding: 0;
