@@ -4,6 +4,17 @@ body {
     overflow-x: hidden;
 }
 
+.benefits {
+    display: none;
+    margin: 15px 0;
+}
+
+.benefits .benefitsHeading h2 {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+
 .headerChange {
     background-color: #4148ef;
     margin-top: 0;
@@ -87,6 +98,7 @@ body {
     border-bottom: solid 2px #E9EBFF;
 }
 
+<<<<<<< HEAD
 
 
 
@@ -95,6 +107,8 @@ body {
 
 
 
+=======
+>>>>>>> 604cb8113c713ef6d4666699f47f19302ff14599
 .darkBlueGradientBg {
     background: linear-gradient(168.12deg, #6B73FF 0%, #000DFF 100%);
 }
@@ -146,12 +160,15 @@ p {
     background-color: #fff;
 }
 
+<<<<<<< HEAD
 .footer-bottom-items {
     display: flex;
     align-items: center;
     
 }
 
+=======
+>>>>>>> 604cb8113c713ef6d4666699f47f19302ff14599
 .footer-bottom-item {
     margin-right: 40px;
 }
