@@ -3,7 +3,7 @@
     padding-top: 100px;
     border-bottom-left-radius: 48px;
     border-bottom-right-radius: 48px;
-    height: 570px;
+    height: 500px;
     position: relative;
 }
 
@@ -15,7 +15,32 @@
     justify-content: flex-start;
 }
 
-.welcome p {
+.banner .bannerRight {
+    color: white;
+}
+
+.banner .bannerLeft .searchBar {
+    position: relative;
+}
+
+.searchBar > input.searchInput {
+    box-shadow: none;
+    border-radius: 50px;
+    height: 48px;
+    padding-left: 52px;
+    width: 340px;
+    font-size: 14px;
+    color: #7D7878;
+    position: relative;
+}
+
+.searchBar span {
+    position: absolute;
+    left: 20px;
+    color: #7D7878 !important;
+}
+
+.welcome p, .d-flex  p {
     font-size: 22px;
     margin: 0;
 }
@@ -29,4 +54,19 @@
 
 .tagLine span {
     font-size: 40px;
+}
+
+.d-flex > ul {
+    list-style-type: none;
+    font-size: 20px;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.benefit span:not(:last-child) {
+    margin-right: 10px;
+}
+
+.benefit + .benefit {
+    margin-top: 1rem;
 }

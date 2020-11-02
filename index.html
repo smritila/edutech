@@ -9,11 +9,12 @@
     <link href="css/index.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
     <link href="css/banner.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8c4fc4f67.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
     <!-- Start Header Section -->
-    <header>
+    <header id="myHeader">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -84,9 +85,40 @@
                 <div class="col-md-7 col-lg-6 col-xl-6 bannerLeft">
                     <div class="welcome">
                         <p>Welcome to Edutech!</p>
-                        <div class="tagLine">
+                        <p class="tagLine">
                             Edutech makes your, <span>Education</span> Easy!
-                        </div>
+                        </p>
+                        <form class="form-inline searchBar">
+                            <input type="text" placeholder="Ask your doubt..." class="form-control searchInput" autocomplete="off">
+                            <span><i class="fas fa-search"></i></span>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-7 col-lg-6 col-xl-6 bannerRight">
+                    <div class="d-flex flex-column">
+                        <p class="mb-4">Download App to get these benefits!</p>
+                        <ul>
+                            <li class="benefit">
+                                <span><i class="far fa-clock"></i></span>
+                                <span>50% Faster</span>
+                            </li>
+                            <li class="benefit">
+                                <span><i class="fas fa-rupee-sign"></i></span>
+                                <span>Earn Cash</span>
+                            </li>
+                            <li class="benefit">
+                                <span><i class="far fa-play-circle"></i></span>
+                                <span>Live Class</span>
+                            </li>
+                            <li class="benefit">
+                                <span><i class="fas fa-book"></i></span>
+                                <span>Full Year Courses</span>
+                            </li>
+                            <li class="benefit">
+                                <span><i class="far fa-comment-alt"></i></span>
+                                <span>Chat with Teachers</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -97,18 +129,18 @@
     <!-- Start main here-->
     <main>
         <!-- Start benefits here -->
-        <div class="container">
+        <!-- <div class="container">
             <div class="row benefits">
                 <div class="col-sm-12 textColorBlack">
                     <h2>Download App to get these benefits!</h2>
                 </div>
 
             </div>
-        </div>
+        </div> -->
         <!-- End benefits here -->
 
         <!-- Start NCERT Section -->
-        <section>
+        <section class="mt-4">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 paddingAdjustment">
@@ -623,5 +655,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>

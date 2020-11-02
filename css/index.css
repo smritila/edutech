@@ -4,20 +4,9 @@ body {
     overflow-x: hidden;
 }
 
-.benefits {
-    border-width: 0 2px 2px 2px;
-    border-style: solid;
-    border-color: #E9EBFF;
-    padding-bottom: 15px;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-    margin-bottom: 30px;
-}
-
-.benefits h2 {
-    font-size: 1.5rem;
-    font-weight: 900;
-    padding: 20px 0;
+.headerChange {
+    background-color: #4148ef;
+    margin-top: 0;
 }
 
 .textColorBlack {
