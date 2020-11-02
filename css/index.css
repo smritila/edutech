@@ -111,3 +111,40 @@ ul.navbar-nav.ml-auto.customPageNavbar > li > a, ul.navbar-nav.ml-auto.customPag
     font-size: 14px;
     font-weight: 700;
 }
+
+.educareIndia {
+    background: linear-gradient(335deg, rgba(128, 106, 247, 1) 31%, rgba(207, 139, 241, 1) 100%);
+    margin: 80px 0px 50px 0;
+    height: 480px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.educareIndiaLeftSection {
+
+    color: #ffffff;
+    margin-top: 70px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.educareIndiaLeftSection p span {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.educareIndiaLeftSection a {
+    background-color: #ffffff;
+    width: 180px;
+    height: 45px;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 50px;
+    display: inline-block;
+    color: #6f42c1;
+    text-decoration: none;
+}
