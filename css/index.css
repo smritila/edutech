@@ -59,7 +59,29 @@ body {
     border-radius: 5px;
     overflow: hidden;
     margin-top: 20px;
-    
+}
+
+.ncertInnerList ul {
+    padding: 10px;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.ncertInnerList ul li {
+    list-style: none;
+}
+
+.ncertInnerList ul li a {
+    color: #3136B3;
+    font-size: 13px;
+    border-bottom: 1px solid #E9EBFF;
+    display: block;
+    padding: 6px 25px 6px 0;
+    text-decoration: none;
+    position: relative;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .lightPurpleGradientBg {
@@ -98,17 +120,6 @@ body {
     border-bottom: solid 2px #E9EBFF;
 }
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-=======
->>>>>>> 604cb8113c713ef6d4666699f47f19302ff14599
 .darkBlueGradientBg {
     background: linear-gradient(168.12deg, #6B73FF 0%, #000DFF 100%);
 }
@@ -157,39 +168,16 @@ p {
 }
 
 .footer-bottom {
+    padding: 20px 0;
     background-color: #fff;
 }
 
-<<<<<<< HEAD
 .footer-bottom-items {
     display: flex;
     align-items: center;
     
 }
 
-=======
->>>>>>> 604cb8113c713ef6d4666699f47f19302ff14599
 .footer-bottom-item {
     margin-right: 40px;
 }
-
-
-
-
-
-
-
-
-/* .footer-bottom-item {
-    display:inline-block;
-    margin-right:50px;
-    margin-top:60px;
-    padding:30px;
-
-}
-
-.text {
-     text-align: right;
-     margin-top: 40px;
-
-} */
