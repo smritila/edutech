@@ -75,21 +75,25 @@ body {
     position: relative;
 }
 
+
+
 .lightGreenGradientBg {
     background: linear-gradient(168.88deg, #8AE6DC 0%, #00B3A0 100%);
 }
 
-.ncertTopHeading {
+.ncertTopHeading 
+{
     padding: 20px;
     border-bottom: solid 2px #E9EBFF;
 }
 
-.specialHeading {
-    color: #4148EF;
-    font-weight: 900;
-    font-size: 22px;
-    position: relative;
-}
+
+
+
+
+
+
+
 
 .darkBlueGradientBg {
     background: linear-gradient(168.12deg, #6B73FF 0%, #000DFF 100%);
@@ -138,20 +142,37 @@ p {
     text-decoration: none;
 }
 
- .footer-bottom {
+.footer-bottom {
     background-color: #fff;
 }
 
-
-
-.footer-bottom-item {
-    padding: 0;
-}
-
 .footer-bottom-items {
-    justify-content: start;
+    display: flex;
+    align-items: center;
+    
 }
 
 .footer-bottom-item {
     margin-right: 40px;
 }
+
+
+
+
+
+
+
+
+/* .footer-bottom-item {
+    display:inline-block;
+    margin-right:50px;
+    margin-top:60px;
+    padding:30px;
+
+}
+
+.text {
+     text-align: right;
+     margin-top: 40px;
+
+} */
