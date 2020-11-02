@@ -1,0 +1,32 @@
+.banner {
+    background: linear-gradient(350deg, rgba(0, 13, 255, 1) 9%, rgba(107, 115, 255, 1) 91%);
+    padding-top: 100px;
+    border-bottom-left-radius: 48px;
+    border-bottom-right-radius: 48px;
+    height: 570px;
+    position: relative;
+}
+
+.banner .bannerLeft {
+    color: white;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.welcome p {
+    font-size: 22px;
+    margin: 0;
+}
+
+.welcome .tagLine {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.tagLine span {
+    font-size: 40px;
+}
