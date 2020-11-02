@@ -137,3 +137,21 @@ p {
     color: #6f42c1;
     text-decoration: none;
 }
+
+ .footer-bottom {
+    background-color: #fff;
+}
+
+
+
+.footer-bottom-item {
+    padding: 0;
+}
+
+.footer-bottom-items {
+    justify-content: start;
+}
+
+.footer-bottom-item {
+    margin-right: 40px;
+}
